@@ -19,6 +19,6 @@
 
 Merci.
 
-Et _Think Trello :wink:_
+Et _ :wink:_
 
 
