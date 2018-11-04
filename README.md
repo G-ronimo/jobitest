@@ -19,6 +19,4 @@
 
 Merci.
 
-Et _ :wink:_
-
-
+:wink:
