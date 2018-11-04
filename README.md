@@ -8,10 +8,13 @@
 
 ## INSTALLATION
 - copier et clone en HTTPS ce repository dans le répertoire local souhaité avec "git clone https://github.com/G-ronimo/jobitest.git"
-- "composer install"
-- modifier le fichier .env afin de configurer l'accès database
-- php bin/console doctrine:database:create
-- bin/console doctrine:migrations:migrate
+- "cd jobitest" puis "composer install"
+- modifier le fichier .env afin de configurer l'accès database au niveau de "DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name"
+- "php bin/console doctrine:database:create"
+- "php bin/console doctrine:migrations:migrate"
+- "php bin console server:start
+ 
+ A priori à ce stade, le projet pourra être visible en http://127.0.0.1:8000
  
 
 Merci.
